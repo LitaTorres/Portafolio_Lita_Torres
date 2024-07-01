@@ -85,3 +85,26 @@
 .footer {
     background-color: #000000;
 }
+
+.iconos article {
+    position: relative; 
+}
+
+.parrafo {
+    display: none;
+}
+
+@keyframes imagen {
+    from { background-image: url(../img/perfil.jpg);}
+    to { background-image: url(../img/perfil2.jpg);}
+}
+
+.imagen {
+    animation-name: imagen;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#perfil {
+    opacity: 0.0;
+}
